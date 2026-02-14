@@ -1,0 +1,436 @@
+/* ===== Base Reset & Typography ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ===== Header ===== */
+header {
+  background: linear-gradient(135deg, #2e7d32, #4caf50);
+  color: white;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.3rem;
+}
+
+header .subtitle {
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+/* ===== Main Layout ===== */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+/* ===== Map Container ===== */
+#map-container {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+#tama-map {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===== Legend ===== */
+#legend {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  border: 1px solid #999;
+}
+
+.legend-color.has-data {
+  background-color: #c8e6c9;
+}
+
+.legend-color.no-data {
+  background-color: #e0e0e0;
+}
+
+/* ===== Tooltip ===== */
+#tooltip {
+  position: absolute;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+  z-index: 100;
+  white-space: nowrap;
+}
+
+#tooltip.visible {
+  opacity: 1;
+}
+
+/* ===== Modal Overlay ===== */
+#modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s, visibility 0.25s;
+}
+
+#modal-overlay.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ===== Modal ===== */
+#modal {
+  background: white;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  transform: scale(0.9);
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#modal-overlay.visible #modal {
+  transform: scale(1);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.5rem;
+  border-bottom: 2px solid #4caf50;
+  position: sticky;
+  top: 0;
+  background: white;
+  border-radius: 12px 12px 0 0;
+  z-index: 1;
+}
+
+#modal-title {
+  font-size: 1.4rem;
+  color: #2e7d32;
+}
+
+#modal-close {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #999;
+  padding: 0 0.3rem;
+  line-height: 1;
+  transition: color 0.2s;
+}
+
+#modal-close:hover {
+  color: #333;
+}
+
+#modal-body {
+  padding: 1rem 1.5rem 1.5rem;
+}
+
+/* ===== Modal Sections ===== */
+.modal-section {
+  margin-bottom: 1.5rem;
+}
+
+.modal-section:last-child {
+  margin-bottom: 0;
+}
+
+.section-title {
+  font-size: 1rem;
+  color: #2e7d32;
+  border-left: 4px solid #4caf50;
+  padding-left: 0.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.section-notes {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background: #fafafa;
+  border-radius: 4px;
+}
+
+/* ===== Data Rows ===== */
+.data-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.data-label {
+  font-weight: bold;
+  min-width: 100px;
+  flex-shrink: 0;
+  color: #555;
+}
+
+.data-value {
+  color: #333;
+}
+
+/* ===== Basic Data Grid ===== */
+.basic-data-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+}
+
+.basic-data-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 0.8rem;
+  text-align: center;
+  border-top: 3px solid #4caf50;
+}
+
+.basic-data-number {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.basic-data-unit {
+  font-size: 0.75rem;
+  color: #888;
+}
+
+.basic-data-label {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.2rem;
+}
+
+/* ===== School Data ===== */
+.school-row {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.92rem;
+}
+
+.school-label {
+  font-weight: bold;
+  min-width: 80px;
+  color: #555;
+}
+
+.school-value {
+  color: #333;
+}
+
+.school-detail {
+  font-size: 0.85rem;
+  color: #666;
+  padding: 0.2rem 0 0.2rem 80px;
+}
+
+.school-detail.private-schools {
+  padding-bottom: 0.5rem;
+}
+
+.denomination {
+  color: #1565c0;
+  font-size: 0.8rem;
+}
+
+/* ===== Population Chart ===== */
+.pop-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.pop-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.pop-label {
+  min-width: 60px;
+  text-align: right;
+  color: #555;
+  font-size: 0.8rem;
+}
+
+.pop-bar-container {
+  flex: 1;
+  background: #f0f0f0;
+  border-radius: 3px;
+  height: 18px;
+  overflow: hidden;
+}
+
+.pop-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #66bb6a, #43a047);
+  border-radius: 3px;
+  transition: width 0.4s ease;
+}
+
+.pop-count {
+  min-width: 70px;
+  text-align: right;
+  color: #333;
+  font-size: 0.8rem;
+}
+
+/* ===== No Data State ===== */
+.no-data-container {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.no-data-icon {
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+}
+
+.no-data-message {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+
+.no-data-sub {
+  font-size: 0.9rem;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.no-data-text {
+  color: #999;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.3rem;
+  }
+
+  .basic-data-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .basic-data-card {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: left;
+    padding: 0.6rem 0.8rem;
+  }
+
+  .basic-data-number {
+    font-size: 1.1rem;
+  }
+
+  .data-row {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .data-label {
+    min-width: unset;
+  }
+
+  .school-detail {
+    padding-left: 0;
+  }
+
+  .pop-label {
+    min-width: 50px;
+    font-size: 0.75rem;
+  }
+
+  .pop-count {
+    min-width: 60px;
+    font-size: 0.75rem;
+  }
+
+  #modal {
+    width: 95%;
+    max-height: 90vh;
+    border-radius: 8px;
+  }
+
+  .modal-header {
+    padding: 1rem;
+    border-radius: 8px 8px 0 0;
+  }
+
+  #modal-body {
+    padding: 0.8rem 1rem 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #modal {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    border-radius: 0;
+  }
+
+  .modal-header {
+    border-radius: 0;
+  }
+}
