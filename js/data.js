@@ -7,11 +7,203 @@ const MUNICIPALITY_DATA = {
   // ===== 特別区 =====
   "13114": {
     name: "中野区",
-    hasData: false
+    hasData: true,
+    number: 1,
+    churches: {
+      kyoudan: ["十貫坂", "新生", "東中野", "中野", "中野桃園", "天門", "聖書之友", "野方町", "更生", "白鷺", "千歳"],
+      otherDenominations: [
+        "日本福音ルーテルスオミ・キリスト",
+        "中野キリストの",
+        "上高田キリスト",
+        "東京集会",
+        "日本同盟キリスト教団中野",
+        "東京ホサナ",
+        "日本ホーリネス新井",
+        "中野バプテスト",
+        "桜山キリストの",
+        "新中野キリスト",
+        "日本ナザレン中野",
+        "日本キリスト改革派江古田",
+        "キリスト同信会",
+        "シオンの群",
+        "カトリックベタニア修道女会",
+        "江古田",
+        "中野ジョイフル",
+        "野方ウエスレアン・メソヂスト",
+        "新井キリスト"
+      ],
+      otherCount: null,
+      notes: ""
+    },
+    basicData: {
+      population: 334243,
+      populationDate: "2022.9.1",
+      area: 15.59,
+      density: 21439
+    },
+    schools: {
+      elementary: {
+        count: 23,
+        privateCount: 2,
+        publicStudents: 10432,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "新渡戸文化", denomination: null },
+          { name: "宝仙学園", denomination: null }
+        ],
+        notes: ""
+      },
+      middleSchool: {
+        count: 16,
+        privateCount: 5,
+        publicStudents: 3729,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "明治大学附属中野", denomination: null },
+          { name: "宝仙学園", denomination: null },
+          { name: "大妻中野", denomination: null },
+          { name: "実践学園", denomination: null },
+          { name: "新渡戸文化", denomination: null },
+          { name: "東京大学教育学部附属", denomination: null }
+        ],
+        notes: "国立・中等教育学校1校（生徒715人）を含む"
+      },
+      highSchool: {
+        count: 19,
+        privateCount: 7,
+        publicStudents: null,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "大妻中野", denomination: null },
+          { name: "実践学園", denomination: null },
+          { name: "東亜学園", denomination: null },
+          { name: "新渡戸文化", denomination: null },
+          { name: "宝仙学園", denomination: null },
+          { name: "堀越", denomination: null },
+          { name: "明治大学付属中野", denomination: null }
+        ],
+        notes: ""
+      },
+      university: {
+        count: 6,
+        students: null,
+        schools: [
+          "帝京平成", "明治", "新渡戸文化短期",
+          "東京工芸(芸術学部)", "国際短期", "子供教育宝仙"
+        ],
+        notes: "キリスト教系3校"
+      }
+    },
+    populationComposition: null,
+    populationTrend: null,
+    industryStructure: null
   },
   "13115": {
     name: "杉並区",
-    hasData: false
+    hasData: true,
+    number: 2,
+    churches: {
+      kyoudan: ["井草", "高円寺", "阿佐ヶ谷", "阿佐谷東", "佐内坂", "杉並", "成宗", "新泉", "荻窪", "東京台湾", "荻窪清水", "大宮前", "西荻", "西荻北", "本郷"],
+      otherDenominations: [
+        "カトリック東京大司教区高円寺",
+        "カトリック荻窪",
+        "カトリック井草",
+        "聖マリア修道女会",
+        "スピノラ修道女会",
+        "カリタス修道会東京修学志願院",
+        "日本聖公会阿佐ヶ谷聖ペテロ",
+        "日本聖公会聖マーガレット教会",
+        "山手ハリストス正教会",
+        "日本イエス・キリスト教団荻窪栄光",
+        "日本長老教会久我山キリスト",
+        "日本長老教会杉並",
+        "日本福音ルーテル武蔵野",
+        "東京中華基督",
+        "杉並聖真ルーテル",
+        "救世軍",
+        "和泉",
+        "方南町キリスト",
+        "久遠キリスト",
+        "井荻福音キリスト",
+        "聖書友之会中央",
+        "杉並中通",
+        "西荻チャペル",
+        "東京恵約",
+        "東京アナバプテストセンター",
+        "富士見ヶ丘キリスト"
+      ],
+      otherCount: null,
+      notes: "他にも教会あり"
+    },
+    basicData: {
+      population: 571849,
+      populationDate: "2022.9.1",
+      area: 34.06,
+      density: 16789
+    },
+    schools: {
+      elementary: {
+        count: 43,
+        privateCount: 2,
+        publicStudents: 20441,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "光塩女子学院初等科", denomination: "カトリック" },
+          { name: "立教女学院小学校", denomination: "プロテスタント" }
+        ],
+        notes: ""
+      },
+      middleSchool: {
+        count: 31,
+        privateCount: 8,
+        publicStudents: null,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "光塩女子学院", denomination: "カトリック" },
+          { name: "佼成学園", denomination: null },
+          { name: "国学院大学久我山", denomination: null },
+          { name: "女子美術大学付属", denomination: null },
+          { name: "東京立正", denomination: null },
+          { name: "日本大学第二", denomination: null },
+          { name: "文化学園大学杉並", denomination: null },
+          { name: "立教女学院", denomination: "プロテスタント" }
+        ],
+        notes: ""
+      },
+      highSchool: {
+        count: 19,
+        privateCount: 12,
+        publicStudents: null,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "光塩女子学院", denomination: "カトリック" },
+          { name: "佼成学園", denomination: null },
+          { name: "國學院大学久我山", denomination: null },
+          { name: "女子美術大学付属", denomination: null },
+          { name: "杉並学院", denomination: null },
+          { name: "専修大学付属", denomination: null },
+          { name: "中央大学杉並", denomination: null },
+          { name: "東京立正", denomination: null },
+          { name: "日本大学第二", denomination: null },
+          { name: "日本大学鶴ヶ丘", denomination: null },
+          { name: "文化学園大学杉並", denomination: null },
+          { name: "立教女学院", denomination: "プロテスタント" }
+        ],
+        notes: ""
+      },
+      university: {
+        count: 5,
+        students: null,
+        schools: [
+          "女子美術大学短期大学部", "高千穂", "東京女子",
+          "東京立正短期", "明治大学和泉キャンパス"
+        ],
+        notes: ""
+      }
+    },
+    populationComposition: null,
+    populationTrend: null,
+    industryStructure: null
   },
 
   // ===== 市（26） =====
@@ -93,7 +285,52 @@ const MUNICIPALITY_DATA = {
   },
   "13202": {
     name: "立川市",
-    hasData: false
+    hasData: true,
+    number: 14,
+    churches: {
+      kyoudan: ["立川", "立川からし種伝道所"],
+      otherDenominations: [],
+      otherCount: 13,
+      notes: "カトリック1、聖公会1、他プロテスタント教団11"
+    },
+    basicData: {
+      population: 185124,
+      populationDate: "2022.9",
+      area: 24.36,
+      density: 7600
+    },
+    schools: {
+      elementary: {
+        count: 20,
+        publicStudents: 8630,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      middleSchool: {
+        count: 9,
+        publicStudents: 3779,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      highSchool: {
+        count: 4,
+        publicStudents: 3739,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      university: {
+        count: 2,
+        students: null,
+        schools: ["国立音楽大学", "東京医療保健大学"],
+        notes: "近隣に東京女子体育大学、武蔵野美術大学、白梅学園大学"
+      }
+    },
+    populationComposition: null,
+    populationTrend: null,
+    industryStructure: null
   },
   "13203": {
     name: "武蔵野市",
@@ -241,19 +478,263 @@ const MUNICIPALITY_DATA = {
   },
   "13205": {
     name: "青梅市",
-    hasData: false
+    hasData: true,
+    number: 18,
+    churches: {
+      kyoudan: ["青梅"],
+      otherDenominations: [],
+      otherCount: 8,
+      notes: "カトリック1、他プロテスタント7"
+    },
+    basicData: {
+      population: 130515,
+      populationDate: "2022.9.1",
+      area: 103.31,
+      density: 1263
+    },
+    schools: {
+      elementary: {
+        count: 17,
+        publicStudents: 5681,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      middleSchool: {
+        count: 11,
+        publicStudents: 3163,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      highSchool: {
+        count: 2,
+        publicStudents: 1406,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      university: {
+        count: 1,
+        students: null,
+        schools: ["明星大学青梅校"],
+        notes: ""
+      }
+    },
+    populationComposition: null,
+    populationTrend: null,
+    industryStructure: null
   },
   "13206": {
     name: "府中市",
-    hasData: false
+    hasData: true,
+    number: 22,
+    churches: {
+      kyoudan: ["東京府中"],
+      otherDenominations: [
+        "多磨教会",
+        "イエス・キリスト緑の牧場",
+        "ホサナ福音キリスト",
+        "カトリック府中",
+        "府中キリスト集会所",
+        "キリスト教たんぽぽ",
+        "日本聖公会聖マルコ",
+        "日本キリスト教会府中中河原"
+      ],
+      otherCount: null,
+      notes: ""
+    },
+    basicData: {
+      population: 260237,
+      populationDate: "2022.9.1",
+      area: 29.43,
+      density: 8843
+    },
+    schools: {
+      elementary: {
+        count: 24,
+        privateCount: 2,
+        publicStudents: 13639,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "武蔵野学園", denomination: null },
+          { name: "明星", denomination: null }
+        ],
+        notes: ""
+      },
+      middleSchool: {
+        count: 12,
+        privateCount: 1,
+        publicStudents: 5721,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "明星", denomination: null }
+        ],
+        notes: ""
+      },
+      highSchool: {
+        count: 4,
+        privateCount: 1,
+        publicStudents: null,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "明星", denomination: null }
+        ],
+        notes: ""
+      },
+      university: {
+        count: 5,
+        students: null,
+        schools: [
+          "東京外国語", "東京農工", "比治山", "東京経済", "東京電機"
+        ],
+        notes: ""
+      }
+    },
+    populationComposition: null,
+    populationTrend: null,
+    industryStructure: null
   },
   "13207": {
     name: "昭島市",
-    hasData: false
+    hasData: true,
+    number: 16,
+    churches: {
+      kyoudan: ["昭島", "拝島伝道所"],
+      otherDenominations: [],
+      otherCount: 3,
+      notes: "プロテスタント他教団3"
+    },
+    basicData: {
+      population: 114204,
+      populationDate: "2022.9",
+      area: 17.34,
+      density: 6586
+    },
+    schools: {
+      elementary: {
+        count: 14,
+        publicStudents: 5861,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "啓明学園初等部", denomination: null }
+        ],
+        notes: ""
+      },
+      middleSchool: {
+        count: 7,
+        publicStudents: 2718,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "啓明学園中学", denomination: null }
+        ],
+        notes: ""
+      },
+      highSchool: {
+        count: 3,
+        publicStudents: 2032,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "啓明学園高校", denomination: null }
+        ],
+        notes: ""
+      },
+      university: {
+        count: null,
+        students: null,
+        schools: [],
+        notes: ""
+      }
+    },
+    populationComposition: null,
+    populationTrend: null,
+    industryStructure: null
   },
   "13208": {
     name: "調布市",
-    hasData: false
+    hasData: true,
+    number: 20,
+    churches: {
+      kyoudan: ["仙川", "調布"],
+      otherDenominations: [
+        "日本同盟キリスト教団中原キリスト",
+        "つつじが丘使徒キリスト",
+        "汚れなきマリア修道会調布修道院",
+        "つつじが丘キリスト",
+        "カトリック調布",
+        "日本バプテスト連盟調布南キリスト",
+        "日本ホーリネス教団調布キリスト",
+        "保恵キリスト",
+        "日本福音基督教団",
+        "多摩川キリスト",
+        "調布バプテスト",
+        "西調布キリスト教会日本宣教会",
+        "調布バプテストテンプル",
+        "カトリック・コングレガシオン・ド・ノートルダム修道会",
+        "シヤルトル聖パウロ修道会緑ヶ丘修道院",
+        "調布南（長老派）",
+        "サレジオ修道院"
+      ],
+      otherCount: null,
+      notes: ""
+    },
+    basicData: {
+      population: 229061,
+      populationDate: "2022.9.1",
+      area: 21.53,
+      density: 10190
+    },
+    schools: {
+      elementary: {
+        count: 22,
+        privateCount: 2,
+        publicStudents: 9373,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "昇華学園", denomination: null },
+          { name: "桐朋", denomination: null }
+        ],
+        notes: ""
+      },
+      middleSchool: {
+        count: 12,
+        privateCount: 4,
+        publicStudents: 4240,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "明治大学付属明治", denomination: null },
+          { name: "昇華学園", denomination: null },
+          { name: "桐朋女子", denomination: null },
+          { name: "ドルトン東京学園中等部", denomination: null }
+        ],
+        notes: ""
+      },
+      highSchool: {
+        count: 7,
+        privateCount: 4,
+        publicStudents: null,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "明治大学付属明治", denomination: null },
+          { name: "昇華学園", denomination: null },
+          { name: "桐朋女子", denomination: null },
+          { name: "ドルトン東京学園高等部", denomination: null }
+        ],
+        notes: ""
+      },
+      university: {
+        count: 7,
+        students: null,
+        schools: [
+          "白百合女子", "桐朋学園", "桐朋学園芸術短期",
+          "電気通信", "駒沢女子大学短期", "東京家政学院", "東京慈恵会医科"
+        ],
+        notes: ""
+      }
+    },
+    populationComposition: null,
+    populationTrend: null,
+    industryStructure: null
   },
   "13209": {
     name: "町田市",
@@ -471,7 +952,62 @@ const MUNICIPALITY_DATA = {
   },
   "13212": {
     name: "日野市",
-    hasData: false
+    hasData: true,
+    number: 15,
+    churches: {
+      kyoudan: ["日野台", "高幡"],
+      otherDenominations: [
+        "豊田キリスト",
+        "カトリック豊田",
+        "カトリック高幡",
+        "南平キリスト",
+        "日本バプテスト連盟日野神明キリスト",
+        "西東京ルーテル",
+        "日野高幡キリスト",
+        "旭ヶ丘ジョイフルチャペル",
+        "日野に在る"
+      ],
+      otherCount: null,
+      notes: ""
+    },
+    basicData: {
+      population: 187322,
+      populationDate: "2022.9.1",
+      area: 27.55,
+      density: 6799
+    },
+    schools: {
+      elementary: {
+        count: 17,
+        publicStudents: 9373,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      middleSchool: {
+        count: 8,
+        publicStudents: 4240,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      highSchool: {
+        count: 3,
+        publicStudents: null,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      university: {
+        count: 2,
+        students: null,
+        schools: ["明星大学", "実践女子"],
+        notes: ""
+      }
+    },
+    populationComposition: null,
+    populationTrend: null,
+    industryStructure: null
   },
   "13213": {
     name: "東村山市",
@@ -632,15 +1168,162 @@ const MUNICIPALITY_DATA = {
   },
   "13215": {
     name: "国立市",
-    hasData: false
+    hasData: true,
+    number: 13,
+    churches: {
+      kyoudan: ["国立"],
+      otherDenominations: [],
+      otherCount: 7,
+      notes: "他教団7"
+    },
+    basicData: {
+      population: 76379,
+      populationDate: "2022.9",
+      area: 8.15,
+      density: 9372
+    },
+    schools: {
+      elementary: {
+        count: 11,
+        publicStudents: 4510,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "国立音楽大学付属小学校", denomination: null }
+        ],
+        notes: ""
+      },
+      middleSchool: {
+        count: 5,
+        publicStudents: 2349,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      highSchool: {
+        count: 4,
+        publicStudents: 3013,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "桐朋学園", denomination: null },
+          { name: "国立音楽大学付属高校", denomination: null },
+          { name: "NHK学園", denomination: null }
+        ],
+        notes: "国立高校、第五商業を含む"
+      },
+      university: {
+        count: 2,
+        students: null,
+        schools: ["一橋大学", "東京女子体育大学"],
+        notes: "いわゆる文教地区"
+      }
+    },
+    populationComposition: null,
+    populationTrend: null,
+    industryStructure: null
   },
   "13218": {
     name: "福生市",
-    hasData: false
+    hasData: true,
+    number: 17,
+    churches: {
+      kyoudan: ["福生"],
+      otherDenominations: [],
+      otherCount: 11,
+      notes: "他プロテスタント教会11"
+    },
+    basicData: {
+      population: 56274,
+      populationDate: "2022.1.1",
+      area: 10.16,
+      density: 5539
+    },
+    schools: {
+      elementary: {
+        count: 7,
+        publicStudents: 2282,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      middleSchool: {
+        count: 3,
+        publicStudents: 1062,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      highSchool: {
+        count: 2,
+        publicStudents: 1386,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      university: {
+        count: null,
+        students: null,
+        schools: [],
+        notes: ""
+      }
+    },
+    populationComposition: null,
+    populationTrend: null,
+    industryStructure: null
   },
   "13219": {
     name: "狛江市",
-    hasData: false
+    hasData: true,
+    number: 21,
+    churches: {
+      kyoudan: ["狛江", "和泉多摩川"],
+      otherDenominations: [
+        "カトリック喜多見",
+        "日本バプテスト連盟多摩川キリスト"
+      ],
+      otherCount: null,
+      notes: ""
+    },
+    basicData: {
+      population: 84321,
+      populationDate: "2022.9.1",
+      area: 6.39,
+      density: 13196
+    },
+    schools: {
+      elementary: {
+        count: 6,
+        publicStudents: 3394,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      middleSchool: {
+        count: 5,
+        privateCount: 1,
+        publicStudents: 1320,
+        publicStudentsYear: null,
+        privateSchools: [
+          { name: "明星", denomination: null }
+        ],
+        notes: ""
+      },
+      highSchool: {
+        count: 3,
+        publicStudents: null,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      university: {
+        count: 1,
+        students: null,
+        schools: ["東京家政学院"],
+        notes: ""
+      }
+    },
+    populationComposition: null,
+    populationTrend: null,
+    industryStructure: null
   },
   "13220": {
     name: "東大和市",
@@ -1006,7 +1689,52 @@ const MUNICIPALITY_DATA = {
   },
   "13228": {
     name: "あきる野市",
-    hasData: false
+    hasData: true,
+    number: 19,
+    churches: {
+      kyoudan: ["五日市伝道所"],
+      otherDenominations: [],
+      otherCount: 8,
+      notes: "カトリック1、祈祷院2、他プロテスタント5"
+    },
+    basicData: {
+      population: 79907,
+      populationDate: "2022.11.1",
+      area: 73.47,
+      density: 1088
+    },
+    schools: {
+      elementary: {
+        count: 11,
+        publicStudents: 4170,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      middleSchool: {
+        count: 7,
+        publicStudents: 2386,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      highSchool: {
+        count: 3,
+        publicStudents: 2259,
+        publicStudentsYear: null,
+        privateSchools: [],
+        notes: ""
+      },
+      university: {
+        count: null,
+        students: null,
+        schools: [],
+        notes: ""
+      }
+    },
+    populationComposition: null,
+    populationTrend: null,
+    industryStructure: null
   },
   "13229": {
     name: "西東京市",
