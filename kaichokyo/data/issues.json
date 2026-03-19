@@ -1,0 +1,3521 @@
+{
+  "issues": [
+    {
+      "number": 1,
+      "label": "創刊号",
+      "date": "1991年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            },
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            },
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "date": "1991年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            },
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "date": "1991年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "date": "1992年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "date": "1992年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "date": "1992年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "date": "1992年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "テモテへの手紙（一）[不明]",
+              "author": "[不明]"
+            },
+            {
+              "title": "ヘブル書[不明]",
+              "author": "[不明]"
+            },
+            {
+              "title": "マタイ[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "date": "1993年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "date": "1993年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "date": "1993年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "date": "1993年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "date": "1994年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "date": "1994年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "date": "1994年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "date": "1994年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "date": "1995年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "date": "1995年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "date": "1995年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "date": "1995年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "date": "1996年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "date": "1996年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "date": "1996年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "date": "1996年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "date": "1997年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "date": "1997年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "date": "1997年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "date": "1997年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "date": "1998年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "date": "1998年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "date": "1998年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "date": "1998年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "date": "1999年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "date": "1999年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "date": "1999年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "date": "1999年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "date": "2000年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "date": "2000年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "date": "2000年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "date": "2000年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "date": "2001年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "ローマ書講義[不明]",
+              "author": "西原"
+            }
+          ]
+        },
+        {
+          "sectionName": "翻訳",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "date": "2001年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "ローマ書講義[不明]",
+              "author": "内田"
+            }
+          ]
+        },
+        {
+          "sectionName": "翻訳",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "date": "2001年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "ローマ書講義[不明]",
+              "author": "世田"
+            }
+          ]
+        },
+        {
+          "sectionName": "翻訳",
+          "articles": [
+            {
+              "title": "[不明]（ヴァン・ティル）",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "date": "2001年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "ローマ書講義[不明]",
+              "author": "文仲"
+            }
+          ]
+        },
+        {
+          "sectionName": "翻訳",
+          "articles": [
+            {
+              "title": "[不明]（ウォルター・ブルッゲマン）",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "date": "2002年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "金子"
+            }
+          ]
+        },
+        {
+          "sectionName": "翻訳",
+          "articles": [
+            {
+              "title": "[不明]（コーネリアス・プランティンガ）",
+              "author": "前田美弥"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "date": "2002年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "翻訳",
+          "articles": [
+            {
+              "title": "[不明]（マーティン・ルーサー・キング）",
+              "author": "小野静子"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "date": "2002年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "翻訳",
+          "articles": [
+            {
+              "title": "[不明]（デイビット・ウェルズ）",
+              "author": "稲垣住代"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "date": "2002年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "翻訳",
+          "articles": [
+            {
+              "title": "[不明]（A・ウォルタース）",
+              "author": "廣瀬薫"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "date": "2003年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "翻訳",
+          "articles": [
+            {
+              "title": "[不明]（コーリー・テン・ブーム）",
+              "author": "柏崎一郎"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "date": "2003年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "翻訳",
+          "articles": [
+            {
+              "title": "[不明]（藤原哲典）",
+              "author": "藤原哲典"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "date": "2003年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "date": "2003年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "date": "2004年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "date": "2004年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "date": "2004年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "廣瀬"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "date": "2004年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "海老沢"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "date": "2005年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "date": "2005年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "date": "2005年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "date": "2005年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書講義",
+          "articles": [
+            {
+              "title": "マルコによる福音書[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "date": "2006年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "date": "2006年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "date": "2006年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "date": "2006年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "date": "2007年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "date": "2007年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "date": "2007年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "date": "2007年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "date": "2008年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "date": "2008年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "date": "2008年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "date": "2008年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "date": "2009年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "date": "2009年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "講座",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "date": "2009年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "講座",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "date": "2009年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "講座",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "date": "2010年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "講座",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "date": "2010年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "講座",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "牧会者の証言",
+          "articles": [
+            {
+              "title": "「共に建てられる教会」",
+              "author": "鈴木富美子（要確認）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "date": "2010年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "講座",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "牧会者の証言",
+          "articles": [
+            {
+              "title": "「主に選ばれた群れに支えられて」",
+              "author": "益守栄（要確認）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "date": "2010年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "講座",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "牧会者の証言",
+          "articles": [
+            {
+              "title": "「向こう見ずドタバタ伝道の恵」",
+              "author": "竹井恵一（要確認）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "date": "2011年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "講座",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "date": "2011年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "講座",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "date": "2011年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "特集：東日本大震災（1）",
+              "author": "[要入力]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            },
+            {
+              "title": "[不明]",
+              "author": "パパン"
+            },
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "date": "2011年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "特集：東日本大震災（2）",
+              "author": "[要入力]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "date": "2012年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "date": "2012年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "date": "2012年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "date": "2012年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "date": "2013年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "ハイデルベルク信仰問答 刊行450年（1）",
+              "author": "[要入力]"
+            }
+          ]
+        },
+        {
+          "sectionName": "牧会者の証言",
+          "articles": [
+            {
+              "title": "「共に建てられる教会」",
+              "author": "鈴木富美子"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "date": "2013年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "ハイデルベルク信仰問答 刊行450年（2）",
+              "author": "[要入力]"
+            }
+          ]
+        },
+        {
+          "sectionName": "牧会者の証言",
+          "articles": [
+            {
+              "title": "「主に選ばれた群れに支えられて」",
+              "author": "益守栄"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "date": "2013年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "特集",
+          "articles": [
+            {
+              "title": "ハイデルベルク信仰問答 刊行450年（3）",
+              "author": "[要入力]"
+            }
+          ]
+        },
+        {
+          "sectionName": "牧会者の証言",
+          "articles": [
+            {
+              "title": "「向こう見ずドタバタ伝道の恵」",
+              "author": "竹井恵一"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "date": "2013年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "date": "2014年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "date": "2014年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書研究",
+          "articles": [
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "大澤求"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "date": "2014年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書研究",
+          "articles": [
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "尾崎和男"
+            },
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "阿部愉太郎"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "date": "2014年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書研究",
+          "articles": [
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "長尾ハンナ"
+            },
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "井上啓一"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "date": "2015年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書研究",
+          "articles": [
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "黒島忠"
+            },
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "中善子"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "date": "2015年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "会堂建設への問い",
+              "author": "[要入力]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書研究",
+          "articles": [
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "藤野雄大"
+            },
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "山口元"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "date": "2015年7月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書研究",
+          "articles": [
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "八束清"
+            },
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "細川修"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "date": "2015年10月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "教会の使命として、考えること",
+              "author": "[要入力]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書研究",
+          "articles": [
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "阿部愉太郎"
+            },
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "松島保真"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "date": "2016年1月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "牧会者を育てるために",
+              "author": "[要入力]"
+            }
+          ]
+        },
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書研究",
+          "articles": [
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "岩住賢"
+            },
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "鈴木淳一"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 101,
+      "date": "2016年4月",
+      "sections": [
+        {
+          "sectionName": "巻頭言",
+          "articles": [
+            {
+              "title": "共に伝道に与る教会",
+              "author": "[要入力]"
+            }
+          ]
+        },
+        {
+          "sectionName": "海外ニュース",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "牧会者通信",
+          "articles": [
+            {
+              "title": "[不明]",
+              "author": "[不明]"
+            }
+          ]
+        },
+        {
+          "sectionName": "聖書研究",
+          "articles": [
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "武井凱一"
+            },
+            {
+              "title": "コリントの信徒への手紙（連載）",
+              "author": "山田詩郎"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 102,
+      "date": "2016年7月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 103,
+      "date": "2016年10月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 104,
+      "date": "2017年1月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 105,
+      "date": "2017年4月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 106,
+      "date": "2017年7月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 107,
+      "date": "2017年10月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 108,
+      "date": "2018年1月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 109,
+      "date": "2018年4月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 110,
+      "date": "2018年7月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 111,
+      "date": "2018年10月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 112,
+      "date": "2019年1月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 113,
+      "date": "2019年4月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 114,
+      "date": "2019年7月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 115,
+      "date": "2019年10月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 116,
+      "date": "2020年1月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 117,
+      "date": "2020年4月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 118,
+      "date": "2020年7月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 119,
+      "date": "2020年10月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 120,
+      "date": "2021年1月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 121,
+      "date": "2021年4月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 122,
+      "date": "2021年7月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 123,
+      "date": "2021年10月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 124,
+      "date": "2022年1月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 125,
+      "date": "2022年4月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 126,
+      "date": "2022年7月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 127,
+      "date": "2022年10月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 128,
+      "date": "2023年1月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 129,
+      "date": "2023年4月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 130,
+      "date": "2023年7月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 131,
+      "date": "2023年10月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 132,
+      "date": "2024年1月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 133,
+      "date": "2024年4月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 134,
+      "date": "2024年7月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 135,
+      "date": "2024年10月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 136,
+      "date": "2025年1月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 137,
+      "date": "2025年4月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 138,
+      "date": "2025年7月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 139,
+      "date": "2025年10月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 140,
+      "date": "2026年1月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 141,
+      "date": "2026年4月",
+      "sections": [
+        {
+          "sectionName": "",
+          "articles": [
+            {
+              "title": "[未入力]",
+              "author": "[未入力]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

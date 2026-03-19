@@ -1,0 +1,120 @@
+.kk-database {
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+/* ナビゲーション */
+.kk-nav {
+  background: #f5f0e8;
+  border: 1px solid #c8b89a;
+  border-radius: 4px;
+  padding: 0.8em 1em;
+  margin: 1.5em 0 2em;
+}
+.kk-nav-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em 0.6em;
+  align-items: center;
+}
+.kk-nav a {
+  color: #5a3e1b;
+  text-decoration: none;
+  font-size: 0.88em;
+  padding: 2px 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.kk-nav a:hover {
+  background: #c8b89a;
+  color: #2c1a06;
+}
+
+/* グループ見出し */
+.kk-group-title {
+  font-size: 1.1em;
+  color: #5a3e1b;
+  border-bottom: 2px solid #c8b89a;
+  padding-bottom: 4px;
+  margin: 2em 0 1em;
+}
+
+/* 号見出し */
+.kk-issue {
+  margin-bottom: 1.8em;
+}
+.kk-issue-title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #2c1a06;
+  background: #f9f5ed;
+  border-left: 4px solid #8b6914;
+  padding: 4px 10px;
+  margin: 0 0 0.3em;
+}
+.kk-issue-date {
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* テーブル */
+.kk-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+}
+.kk-table tr:nth-child(even) {
+  background: #faf7f2;
+}
+.kk-table td {
+  padding: 4px 8px;
+  border-bottom: 1px solid #e8e0d0;
+  vertical-align: top;
+}
+.kk-section {
+  width: 100px;
+  color: #8b6914;
+  font-size: 0.85em;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.kk-title-cell {
+  width: auto;
+}
+.kk-author-cell {
+  width: 120px;
+  color: #444;
+  text-align: right;
+  white-space: nowrap;
+}
+.kk-unknown {
+  color: #bbb;
+  font-style: italic;
+}
+
+/* 上に戻るリンク */
+.kk-back-to-top {
+  text-align: right;
+  font-size: 0.8em;
+  margin: 0.3em 0 1em;
+}
+.kk-back-to-top a {
+  color: #8b6914;
+  text-decoration: none;
+}
+
+/* モバイル対応 */
+@media (max-width: 600px) {
+  .kk-author-cell {
+    width: 80px;
+    font-size: 0.82em;
+  }
+  .kk-section {
+    width: 70px;
+    font-size: 0.78em;
+  }
+}

@@ -1,0 +1,8 @@
+# 不要ファイルを除外
+__MACOSX/
+pdf_images/
+総目次作成資料/
+総目次作成資料.zip
+data/issues_raw.json
+data/issues_extracted.json
+output/preview.html

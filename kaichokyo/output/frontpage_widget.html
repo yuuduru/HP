@@ -1,0 +1,148 @@
+<!-- ======================================================
+   改革長老教会協議会HP トップページ用ウィジェット
+   「最新号の目次」ブロック + 「総目次データベースへ」ボタン
+
+   使い方:
+   1. WordPress管理画面 > 固定ページ「トップページ」を編集
+   2. このHTMLをカスタムHTMLブロックとして貼り付け
+   3. 最新号のデータを毎号更新する
+   ====================================================== -->
+
+<!-- 最新号ブロック -->
+<div class="kk-latest">
+  <div class="kk-latest-header">
+    <span class="kk-latest-badge">最新号</span>
+    <h2 class="kk-latest-title">季刊教会 第141号</h2>
+    <span class="kk-latest-date">2026年4月</span>
+  </div>
+
+  <div class="kk-latest-body">
+    <table class="kk-latest-table">
+      <tbody>
+        <!-- ▼▼▼ 最新号の目次をここに入力 ▼▼▼ -->
+        <tr>
+          <td class="kk-l-section">巻頭言</td>
+          <td class="kk-l-title">[記事タイトル]</td>
+          <td class="kk-l-author">[著者名]</td>
+        </tr>
+        <tr>
+          <td class="kk-l-section">特集</td>
+          <td class="kk-l-title">[特集タイトル]</td>
+          <td class="kk-l-author">[著者名]</td>
+        </tr>
+        <tr>
+          <td class="kk-l-section"></td>
+          <td class="kk-l-title">[論文タイトル]</td>
+          <td class="kk-l-author">[著者名]</td>
+        </tr>
+        <tr>
+          <td class="kk-l-section">聖書研究</td>
+          <td class="kk-l-title">[聖書箇所と題名]</td>
+          <td class="kk-l-author">[著者名]</td>
+        </tr>
+        <!-- ▲▲▲ ここまで ▲▲▲ -->
+      </tbody>
+    </table>
+  </div>
+
+  <div class="kk-latest-footer">
+    <a class="kk-db-button" href="/季刊教会-総目次/">
+      季刊教会 総目次（創刊〜最新号）を見る →
+    </a>
+  </div>
+</div>
+
+<style>
+/* 最新号ウィジェット スタイル */
+.kk-latest {
+  border: 2px solid #8b6914;
+  border-radius: 6px;
+  margin: 1.5em 0;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+}
+.kk-latest-header {
+  background: #8b6914;
+  color: #fff;
+  padding: 0.7em 1.2em;
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  flex-wrap: wrap;
+}
+.kk-latest-badge {
+  background: #fff;
+  color: #8b6914;
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.kk-latest-title {
+  font-size: 1.15em;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+}
+.kk-latest-date {
+  font-size: 0.9em;
+  color: #f5e8c8;
+  margin-left: auto;
+}
+.kk-latest-body {
+  padding: 0.8em 1.2em;
+}
+.kk-latest-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92em;
+}
+.kk-latest-table tr {
+  border-bottom: 1px solid #e8e0d0;
+}
+.kk-latest-table td {
+  padding: 5px 6px;
+  vertical-align: top;
+}
+.kk-l-section {
+  width: 90px;
+  color: #8b6914;
+  font-size: 0.85em;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.kk-l-title {
+  color: #222;
+}
+.kk-l-author {
+  width: 100px;
+  color: #555;
+  text-align: right;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+.kk-latest-footer {
+  padding: 0.8em 1.2em;
+  border-top: 1px solid #e8e0d0;
+  text-align: right;
+}
+.kk-db-button {
+  display: inline-block;
+  background: #5a3e1b;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 0.5em 1.2em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+}
+.kk-db-button:hover {
+  background: #8b6914;
+}
+@media (max-width: 600px) {
+  .kk-l-author {
+    display: none;
+  }
+  .kk-l-section { width: 70px; }
+}
+</style>
