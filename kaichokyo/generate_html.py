@@ -33,21 +33,30 @@ def issue_label(issue):
     return f"第{n}号"
 
 
-def build_nav(issues):
-    """10号ごとのナビゲーションバーを生成（降順：新しい号が先）"""
-    total = len(issues)
-    groups = []
-    for start in range(1, total + 1, 10):
-        end = min(start + 9, total)
+def has_data(issue):
+    """その号に入力済みの記事が1件でもあるか"""
+    for section in issue.get("sections", []):
+        for a in section.get("articles", []):
+            t = a.get("title", "")
+            au = a.get("author", "")
+            if t not in ("[不明]", "[未入力]", "") or au not in ("[不明]", "[未入力]", ""):
+                return True
+    return False
+
+
+def build_nav(active_groups):
+    """データのあるグループのみナビゲーションを生成（降順）"""
+    links = []
+    for start, end in active_groups:
         if start == end:
             label = f"{start}号"
         else:
             label = f"{start}〜{end}号"
         anchor = f"issue-group-{start}"
-        groups.append(f'<a href="#{anchor}">{label}</a>')
+        links.append(f'<a href="#{anchor}">{label}</a>')
 
-    groups.reverse()  # 降順
-    nav_links = "\n    ".join(groups)
+    links.reverse()
+    nav_links = "\n    ".join(links)
     return f"""<nav class="kk-nav" aria-label="号数ナビゲーション">
   <div class="kk-nav-inner">
     {nav_links}
@@ -139,11 +148,16 @@ def build_issue_html(issue):
 
 
 def build_group_section(issues, start, end):
-    """10号ごとのグループセクション（各グループ内は降順）"""
-    group = issues[start - 1 : end]
+    """10号ごとのグループセクション（各グループ内は降順）。データのある号がなければNone"""
+    group = [i for i in issues[start - 1 : end] if has_data(i)]
+    if not group:
+        return None
     group.reverse()  # グループ内も降順
     group_anchor = f"issue-group-{start}"
-    group_label = f"第{start}号〜第{end}号"
+    if start == end:
+        group_label = f"第{start}号"
+    else:
+        group_label = f"第{start}号〜第{end}号"
 
     issues_html = "\n\n".join(build_issue_html(issue) for issue in group)
 
@@ -156,16 +170,22 @@ def build_group_section(issues, start, end):
 
 def build_page(issues):
     """ページ全体のHTML（WordPressカスタムHTMLブロック用）"""
-    nav = build_nav(issues)
-
     total = len(issues)
-    groups = []
+
+    # 各10号刻みのグループのうち、データのある号があるものだけ採用
+    active_groups = []
+    body_sections = []
     for start in range(1, total + 1, 10):
         end = min(start + 9, total)
-        groups.append(build_group_section(issues, start, end))
+        section = build_group_section(issues, start, end)
+        if section is None:
+            continue
+        active_groups.append((start, end))
+        body_sections.append(section)
 
-    groups.reverse()  # グループ自体も降順
-    groups_html = "\n\n".join(groups)
+    nav = build_nav(active_groups)
+    body_sections.reverse()
+    groups_html = "\n\n".join(body_sections)
 
     # データ入力済み件数
     filled = sum(
@@ -175,7 +195,8 @@ def build_page(issues):
         for article in section.get("articles", [])
         if article.get("title") not in ("[不明]", "[未入力]", "")
     )
-    note = f"<!-- 全{total}号掲載 | 入力済み記事: {filled}件 -->"
+    filled_issues = sum(1 for i in issues if has_data(i))
+    note = f"<!-- 全{total}号中 入力済み{filled_issues}号 / 入力済み記事 {filled}件 -->"
 
     first_date = issues[0].get("date", "")
     last_date = issues[-1].get("date", "")
@@ -186,6 +207,7 @@ def build_page(issues):
 {note}
 
 <h2 class="kk-page-subtitle">創刊号（{first_date}）〜第{total}号（{last_date}）</h2>
+<p class="kk-progress-note">※ 現在 {filled_issues} / {total} 号分の目次データを掲載しています（順次追加中）</p>
 
 {nav}
 
@@ -229,6 +251,12 @@ def build_css():
 .kk-nav a:hover {
   background: #c8b89a;
   color: #2c1a06;
+}
+
+.kk-progress-note {
+  color: #888;
+  font-size: 0.85em;
+  margin: 0.2em 0 1em;
 }
 
 /* グループ見出し */

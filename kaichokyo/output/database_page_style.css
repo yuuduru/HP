@@ -32,6 +32,12 @@
   color: #2c1a06;
 }
 
+.kk-progress-note {
+  color: #888;
+  font-size: 0.85em;
+  margin: 0.2em 0 1em;
+}
+
 /* グループ見出し */
 .kk-group-title {
   font-size: 1.1em;
