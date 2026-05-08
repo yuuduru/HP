@@ -45,6 +45,9 @@
 .kk-issue {
   margin-bottom: 1.8em;
 }
+.kk-issue-empty {
+  margin-bottom: 0.4em;
+}
 .kk-issue-title {
   font-size: 1em;
   font-weight: bold;
@@ -54,10 +57,22 @@
   padding: 4px 10px;
   margin: 0 0 0.3em;
 }
+.kk-issue-empty .kk-issue-title {
+  border-left-color: #d8cfb8;
+  color: #888;
+  background: #fafafa;
+}
 .kk-issue-date {
   font-weight: normal;
   font-size: 0.9em;
   color: #666;
+}
+.kk-empty-mark {
+  font-weight: normal;
+  font-size: 0.85em;
+  color: #bbb;
+  font-style: italic;
+  margin-left: 0.6em;
 }
 
 /* テーブル */
@@ -67,26 +82,28 @@
   font-size: 0.9em;
   margin-bottom: 0.5em;
 }
-.kk-table tr:nth-child(even) {
-  background: #faf7f2;
-}
 .kk-table td {
-  padding: 4px 8px;
-  border-bottom: 1px solid #e8e0d0;
+  padding: 5px 8px;
+  border-bottom: 1px solid #f0eadf;
   vertical-align: top;
+  background: #fff;
 }
-.kk-section {
-  width: 100px;
-  color: #8b6914;
-  font-size: 0.85em;
+.kk-section-row th {
+  background: #f5f0e8;
+  text-align: left;
+  font-size: 0.9em;
+  color: #5a3e1b;
   font-weight: bold;
-  white-space: nowrap;
+  padding: 0.5em 10px 0.4em;
+  border-bottom: 1px solid #c8b89a;
+  border-top: 1px solid #c8b89a;
 }
 .kk-title-cell {
   width: auto;
+  padding-left: 1.6em;
 }
 .kk-author-cell {
-  width: 120px;
+  width: 12em;
   color: #444;
   text-align: right;
   white-space: nowrap;
@@ -110,11 +127,10 @@
 /* モバイル対応 */
 @media (max-width: 600px) {
   .kk-author-cell {
-    width: 80px;
+    width: 8em;
     font-size: 0.82em;
   }
-  .kk-section {
-    width: 70px;
-    font-size: 0.78em;
+  .kk-title-cell {
+    padding-left: 0.8em;
   }
 }

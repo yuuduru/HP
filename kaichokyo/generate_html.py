@@ -55,8 +55,29 @@ def build_nav(issues):
 </nav>"""
 
 
+def _is_empty_article(a):
+    return (
+        a.get("title", "") in ("[不明]", "[未入力]", "")
+        and a.get("author", "") in ("[不明]", "[未入力]", "")
+    )
+
+
+def format_section_name(name: str) -> str:
+    """長いセクション名は意味のある区切りで改行する"""
+    if not name:
+        return ""
+    # 12文字以上のセクション名のみ対象
+    if len(name) < 12:
+        return name
+    hints = ["リレー黙想", "牧師会講師紹介"]
+    for h in hints:
+        if h in name and not name.startswith(h):
+            return name.replace(h, f"<br>{h}")
+    return name
+
+
 def build_issue_html(issue):
-    """1号分のHTMLブロックを生成"""
+    """1号分のHTMLブロックを生成（セクション名はヘッダー行として独立表示）"""
     n = issue["number"]
     date = issue.get("date", "")
     label = issue_label(issue)
@@ -69,11 +90,21 @@ def build_issue_html(issue):
         if not articles:
             continue
 
-        for i, article in enumerate(articles):
+        # 空セクション（セクション名なし＋全記事が空）はスキップ：PDF時代のスケルトン残骸
+        if sec_name == "" and all(_is_empty_article(a) for a in articles):
+            continue
+
+        # セクションヘッダー行
+        if sec_name:
+            rows.append(
+                f'    <tr class="kk-section-row">'
+                f'<th colspan="2" class="kk-section-header">【{sec_name}】</th></tr>'
+            )
+
+        for article in articles:
             title = article.get("title", "")
             author = article.get("author", "")
 
-            # [不明]/[未入力] の表示処理
             title_html = (
                 f'<span class="kk-unknown">[未入力]</span>'
                 if title in ("[不明]", "[未入力]", "")
@@ -84,25 +115,26 @@ def build_issue_html(issue):
                 else f'<span class="kk-author">{author}</span>'
             )
 
-            # セクション名は最初の行だけ表示、以降は空セル
-            sec_display = sec_name if i == 0 else ""
-            sec_cell = f'<td class="kk-section">{sec_display}</td>'
-
             rows.append(
-                f'    <tr>{sec_cell}'
+                f'    <tr>'
                 f'<td class="kk-title-cell">{title_html}</td>'
                 f'<td class="kk-author-cell">{author_html}</td></tr>'
             )
 
-    table_body = "\n".join(rows) if rows else '    <tr><td class="kk-section"></td><td colspan="2" class="kk-unknown">[未入力]</td></tr>'
-
-    return f"""<div class="kk-issue" id="{anchor}">
+    if rows:
+        table_body = "\n".join(rows)
+        return f"""<div class="kk-issue" id="{anchor}">
   <h3 class="kk-issue-title">{label}<span class="kk-issue-date">（{date}）</span></h3>
   <table class="kk-table">
     <tbody>
 {table_body}
     </tbody>
   </table>
+</div>"""
+
+    # 未入力号はコンパクト表示（テーブル無し）
+    return f"""<div class="kk-issue kk-issue-empty" id="{anchor}">
+  <h3 class="kk-issue-title">{label}<span class="kk-issue-date">（{date}）</span><span class="kk-empty-mark">[未入力]</span></h3>
 </div>"""
 
 
@@ -212,6 +244,9 @@ def build_css():
 .kk-issue {
   margin-bottom: 1.8em;
 }
+.kk-issue-empty {
+  margin-bottom: 0.4em;
+}
 .kk-issue-title {
   font-size: 1em;
   font-weight: bold;
@@ -221,10 +256,22 @@ def build_css():
   padding: 4px 10px;
   margin: 0 0 0.3em;
 }
+.kk-issue-empty .kk-issue-title {
+  border-left-color: #d8cfb8;
+  color: #888;
+  background: #fafafa;
+}
 .kk-issue-date {
   font-weight: normal;
   font-size: 0.9em;
   color: #666;
+}
+.kk-empty-mark {
+  font-weight: normal;
+  font-size: 0.85em;
+  color: #bbb;
+  font-style: italic;
+  margin-left: 0.6em;
 }
 
 /* テーブル */
@@ -234,26 +281,28 @@ def build_css():
   font-size: 0.9em;
   margin-bottom: 0.5em;
 }
-.kk-table tr:nth-child(even) {
-  background: #faf7f2;
-}
 .kk-table td {
-  padding: 4px 8px;
-  border-bottom: 1px solid #e8e0d0;
+  padding: 5px 8px;
+  border-bottom: 1px solid #f0eadf;
   vertical-align: top;
+  background: #fff;
 }
-.kk-section {
-  width: 100px;
-  color: #8b6914;
-  font-size: 0.85em;
+.kk-section-row th {
+  background: #f5f0e8;
+  text-align: left;
+  font-size: 0.9em;
+  color: #5a3e1b;
   font-weight: bold;
-  white-space: nowrap;
+  padding: 0.5em 10px 0.4em;
+  border-bottom: 1px solid #c8b89a;
+  border-top: 1px solid #c8b89a;
 }
 .kk-title-cell {
   width: auto;
+  padding-left: 1.6em;
 }
 .kk-author-cell {
-  width: 120px;
+  width: 12em;
   color: #444;
   text-align: right;
   white-space: nowrap;
@@ -277,12 +326,11 @@ def build_css():
 /* モバイル対応 */
 @media (max-width: 600px) {
   .kk-author-cell {
-    width: 80px;
+    width: 8em;
     font-size: 0.82em;
   }
-  .kk-section {
-    width: 70px;
-    font-size: 0.78em;
+  .kk-title-cell {
+    padding-left: 0.8em;
   }
 }
 """
