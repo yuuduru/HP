@@ -34,10 +34,11 @@ def issue_label(issue):
 
 
 def build_nav(issues):
-    """10号ごとのナビゲーションバーを生成"""
+    """10号ごとのナビゲーションバーを生成（降順：新しい号が先）"""
+    total = len(issues)
     groups = []
-    for start in range(1, len(issues) + 1, 10):
-        end = min(start + 9, len(issues))
+    for start in range(1, total + 1, 10):
+        end = min(start + 9, total)
         if start == end:
             label = f"{start}号"
         else:
@@ -45,6 +46,7 @@ def build_nav(issues):
         anchor = f"issue-group-{start}"
         groups.append(f'<a href="#{anchor}">{label}</a>')
 
+    groups.reverse()  # 降順
     nav_links = "\n    ".join(groups)
     return f"""<nav class="kk-nav" aria-label="号数ナビゲーション">
   <div class="kk-nav-inner">
@@ -105,11 +107,11 @@ def build_issue_html(issue):
 
 
 def build_group_section(issues, start, end):
-    """10号ごとのグループセクション"""
+    """10号ごとのグループセクション（各グループ内は降順）"""
     group = issues[start - 1 : end]
+    group.reverse()  # グループ内も降順
     group_anchor = f"issue-group-{start}"
-    end_actual = group[-1]["number"]
-    group_label = f"第{start}号〜第{end_actual}号"
+    group_label = f"第{start}号〜第{end}号"
 
     issues_html = "\n\n".join(build_issue_html(issue) for issue in group)
 
@@ -124,14 +126,15 @@ def build_page(issues):
     """ページ全体のHTML（WordPressカスタムHTMLブロック用）"""
     nav = build_nav(issues)
 
+    total = len(issues)
     groups = []
-    for start in range(1, len(issues) + 1, 10):
-        end = min(start + 9, len(issues))
+    for start in range(1, total + 1, 10):
+        end = min(start + 9, total)
         groups.append(build_group_section(issues, start, end))
 
+    groups.reverse()  # グループ自体も降順
     groups_html = "\n\n".join(groups)
 
-    total = len(issues)
     # データ入力済み件数
     filled = sum(
         1
@@ -142,12 +145,15 @@ def build_page(issues):
     )
     note = f"<!-- 全{total}号掲載 | 入力済み記事: {filled}件 -->"
 
+    first_date = issues[0].get("date", "")
+    last_date = issues[-1].get("date", "")
+
     return f"""<!-- wp:html -->
 <div id="kk-database-top" class="kk-database">
 
 {note}
 
-<h2 class="kk-page-subtitle">創刊号（1977年4月）〜第{total}号</h2>
+<h2 class="kk-page-subtitle">創刊号（{first_date}）〜第{total}号（{last_date}）</h2>
 
 {nav}
 
